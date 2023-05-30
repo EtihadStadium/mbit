@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mbit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mbit">
+        <activity
+            android:name=".SettingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ISFPActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ISFJActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ISTJActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ISTPActivity"
+            android:exported="true" />
+        <activity
+            android:name=".INTPActivity"
+            android:exported="true" />
+        <activity
+            android:name=".INTJActivity"
+            android:exported="true" />
+        <activity
+            android:name=".INFJActivity"
+            android:exported="true" />
+        <activity
+            android:name=".INFPActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ESFJActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ESFPActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ESTJActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ESTPActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ENFJActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ENFPActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ENTJActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ENTPActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".PickChannelActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".IntroActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".SetNickActivity" />
+        <activity android:name=".Configuration" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
